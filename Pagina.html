@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Centro de día para personas con discapacidad</title>
+  <link rel="stylesheet" href="pagina.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap Stylesheet -->
+  <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="headerContent">
+      <div id="cerebroIzquierda">
+        <img class="imgHeader" src="src/cerebroIquierda.png" alt="Ilustración del cerebro">
+      </div>
+      <h1 class="titulo-pagina">Centro de día <br> Más valor</h1>
+      <div id="cerebroDerecha">
+        <img class="imgHeader" src="src/cerebroDerecha.png" alt="Ilustración del cerebro">
+      </div>
+
+    </div>
+    <div class="ph1">Más valor cada día</div>
+    <nav class="menu-navegacion">
+      <ul>
+        <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+        <li><a href="#actividades">Actividades</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#ubicacion">Dónde estamos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div class="hero">
+        <h2>Quienes somos</h2>
+        <p class="texto-hero">Somos un proyecto de animación sociocultural que ha apostado por trabajar en el centro de día para personas con discapacidad intelectual “Más Valor”, en Logroño, La Rioja.
+          Nuestro principal objetivo es motivar a las personas para que logren desarrollarse de forma personal, aumentar su autoestima e integridad, conseguir una inclusión real con el resto de la sociedad y mejorar sus relaciones socio-afectivas con el resto de personas.
+          Todo ello lo trabajamos a través de actividades de animación sociocultural, potenciando valor de sus decisiones.
+          Esperamos con ganas que te animes a participar con nosotros en este proyecto tan importante para nosotros y para el resto de la sociedad.</p>
+      </div>
+    </section>
+    <div class="actividad">
+    <section>
+      <h2 id="actividades">Actividades</h2>
+      <ul>
+        <li>Actividades deportivas adaptadas.</li>
+        <li>Actividades de movilidad fina y gruesa.</li>
+      </ul>
+    </section>
+    <section>
+    <h2 id="Talleres">Talleres</h2>
+      <ul>
+        <li>Taller de baile.</li>
+        <li>Taller de cocina.</li>
+        <li>Taller de jardinería.</li>
+        <li>Taller de manualidades.</li>
+        <li>Taller de desarrollo sensorial y cognitivo.</li>
+        <li>Taller de alfarería.</li>
+        <li>Taller de pintura.</li>
+      </ul>
+    </section>
+    <section>
+      <h2 id="Dinámicas">Dinámicas</h2>
+        <ul>
+          <li>Dinámica de musicoterapia.</li>
+          <li>Dinámica de juegos de mesa.</li>
+          <li>Dinámica de orientación espacial por las calles de Logroño.</li>
+          <li>Dinámica de charlas de sensibilización y formación hacia otros colectivos.</li>
+          
+        </ul>
+      </section>
+      <section>
+        <h2 id="Salidas">Salidas</h2>
+          <ul>
+            <li>Dos semanas de vacaciones a la playa en verano.</li>
+            <li>Salidas a la piscina en verano.</li>
+            <li>Salidas a actos públicos: fiestas populares, fechas importantes...</li>
+          </ul>
+        </section>
+  </div>
+    <div class="servicios-container">
+      <section>
+        <h2 id="servicios">Servicios</h2>
+        <p>Ofrecemos una variedad de servicios para satisfacer las necesidades de nuestros <br> usuarios:</p>
+        <ul>
+          <li>Acogida diurna (08:00a.m-20:00p.m)</li>
+          <li>Comedor.</li>
+          <li>Transporte.</li>
+          <li>Apoyo personal y familiar.</li>
+          <li>Dinamización sociocultural y actividades de ocio y tiempo libre.</li>
+        </ul>
+        <img id="cerebroIMG" src="src/personas.png" alt="Ilustración del cerebro" class="servicios-imagen">
+      </section>
+    </div>
+    <div id="ubiContacto">
+      <section>
+        <h2 id="ubicacion">Ubicación</h2>
+        <div style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0"
+            marginwidth="0"
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Vara%20de%20rey,%20Logro%C3%B1o+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+            <a href="https://www.gps.ie/car-satnav-gps/">GPS devices</a></iframe></div>
+      </section>
+      <div class="contact-container">
+        <section>
+          <h2 id="contacto">Contacto</h2>
+          <p>Ponte en contacto con nosotros para más información:</p>
+          <p>Teléfono: 555-123-4567</p>
+          <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+          <div id="rrss">
+            <div class="container" style="padding: 80px 0;">
+              <a class="iconos" href="#">
+                <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+              </a>
+              <a class="iconos" href="#">
+                <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+              </a>
+              <a class="iconos" href="#">
+                <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+              </a>
+              <a class="iconos" href="#">
+                <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+
+  </main>
+  <footer>
+    <p>Derechos reservados © 2023 Centro de día Más Valor</p>
+  </footer>
+  <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
